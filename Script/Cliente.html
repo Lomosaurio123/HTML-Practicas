@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes-PasteLaunch</title>
+</head>
+<body>
+    <img src="../Assets/Logo.png" alt="Logo de la compañia">
+    <h1>PASTELAUNCH</h1><br><br>
+    <h1>Vemos con que acompañaras tu pastel:</h1><br>
+
+    <h2>Sabores:</h2>
+    <p>Vainilla  ............................................................................. $150</p>
+    <p>Chocolate ............................................................................. $200</p>
+    <p>Relleno   ............................................................................. $250</p>
+    <br><br>
+
+    <h2>Decoraciones:</h2>
+    <dl>
+        <dt>Cumpleaños</dt>
+        <dd>-Esta decoración es especial para cumpleaños ..............$70</dd>
+        <dt>Personaje</dt>
+        <dd>-Decorado con temática del superheroe de elección ..............$80</dd>
+        <dt>Eventos Especiales</dt>
+        <dd>-Incluye el nombre del evento y los elementos representativos del mismo (pude subir el precio) ..............$100 (precio base)</dd>
+        <dt>Cubierta de betún</dt>
+        <dd>-Decoración sencilla de betún ..............$40</dd>
+
+    </dl>
+    <br><br>
+    <h1>Realiza tu orden:</h1>
+    <!--Formulario solicitando Nombre, Teléfono, Correo Electrónico, Descripción general del pastel, la selección de adornos y sabores-->
+    <label for="Nombre">Ingresa tu nombre completo:</label>
+    <input type="text" id="Nombre" name="Nombre"><br><br>
+
+    <label for="Telefono">Ingresa tu Telefono:</label>
+    <input type="tel" id="Telefono" name="Telefono" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+    <label for="Correo">Ingresa tu Correo:</label>
+    <input type="email" id="Correo" name="Correo"><br><br>
+
+    <label for="Generalidades">Ingresa la descripción de tu pastel:</label><br>
+    <textarea name="Generalidades" id="Generalidades" cols="50" rows="4"></textarea>
+
+    <h3>Sabores:</h3>
+    <input type="radio" id="Sabor1" name="Sabor" value="Vainilla">
+    <label for="Sabor1"> Vainilla</label><br>
+    <input type="radio" id="Sabor2" name="Sabor" value="Chocolate">
+    <label for="Sabor2"> Chocolate</label><br>
+    <input type="radio" id="Sabor3" name="Sabor" value="Relleno">
+    <label for="Sabor3"> Relleno</label>
+
+    <h3>Decoraciones:</h3>
+    <input type="radio" id="Decoracion1" name="Decoracion" value="Cumpleaños">
+    <label for="Decoracion1">Cumpleaños</label><br>
+
+    <input type="radio" id="Decoracion2" name="Decoracion" value="Personaje">
+    <label for="Decoracion2">Personaje</label><br>
+
+    <input type="radio" id="Decoracion3" name="Decoracion" value="Especiales">
+    <label for="Decoracion3">Eventos Especiales</label><br>
+
+    <input type="radio" id="Decoracion4" name="Decoracion" value="Betún">
+    <label for="Decoracion4">Cubierta de Betún</label><br><br>
+
+    <input type="submit" value="Enviar"><br>
+
+    <h1>Contactos:</h1>
+    <p>Telefono : 55151255123</p>
+    <p>Dirección: xxxxxxxx</p>
+    <p>Horario de Atención: 8:00 AM - 9:00 PM</p>
+
+</body>
+</html>
